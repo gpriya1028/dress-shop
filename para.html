@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="PRIYA"></div>
+     <h1>PRIYA</h1>
+    <p>PARA</p>
+    <button onclick="aa()">CLICK</button>
+    <script>
+        function aa(){
+            let a =document.createElement('h1')
+            let b =document.createTextNode("I AM THE CREATED ONE")
+
+            a.appendChild(b)
+            let c = document.getElementById('PRIYA')
+         
+            c.appendChild(a)
+        }  
+    </script>
+</body>
+</html>

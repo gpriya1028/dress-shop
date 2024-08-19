@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Timetable</title>
+    <style>
+       th,td{
+        border: 1px solid black;
+       }
+    </style>
+</head>
+<body>
+    <h1>TIME TABLE</h1>
+    <button onclick="priya()">clik</button>
+<script>
+    function priya(){
+let table = document.createElement('table');
+table.style.backgroundColor="pink"
+
+let row1 = document.createElement('tr');
+row1.style.color="blue"
+let row2 = document.createElement('tr');
+let row3 = document.createElement('tr');
+
+// let row = document.createElement('row');
+// row.style.backgroundColor="blue"
+
+
+let th1 = document.createElement('th');
+th1.textContent = 'NAME';
+let th2 = document.createElement('th');
+th2.textContent = 'CLASS';
+let th3 = document.createElement('th');
+th3.textContent = 'AGE';
+let th4 = document.createElement('th');
+th4.textContent = 'COUNTRY';
+let th5 = document.createElement('th');
+th5.textContent = 'DISTRICT';
+
+let td1 = document.createElement('td');
+td1.textContent = 'PRIYA';
+let td2 = document.createElement('td');
+td2.textContent = 'MCA';
+let td3 = document.createElement('td');
+td3.textContent = '21';
+let td4 = document.createElement('td');
+td4.textContent = 'INDIA';
+let td5 = document.createElement('td');
+td5.textContent = 'SALEM';
+
+let td6 = document.createElement('td');
+td6.textContent = 'KOKILA';
+ let td7 = document.createElement('td');
+ td7.textContent = 'MCA';
+let td8 = document.createElement('td');
+ td8.textContent = '21';
+ let th9 = document.createElement('td');
+th9.textContent = 'INDIA';
+let th10 = document.createElement('td');
+th10.textContent = 'SALEM';
+
+row1.appendChild(th1);
+row1.appendChild(th2);
+row1.appendChild(th3);
+row1.appendChild(th4);
+row1.appendChild(th5);
+
+
+
+row2.appendChild(td1);
+row2.appendChild(td2);
+row2.appendChild(td3);
+
+
+row3.appendChild(td4);
+row3.appendChild(td5);
+row3.appendChild(td6);
+
+
+table.appendChild(row1);
+table.appendChild(row2);
+table.appendChild(row3);
+
+
+
+document.body.appendChild(table);}
+    </script>
+   
+
+</body>
+</html>
+</body>
+
+</html>
